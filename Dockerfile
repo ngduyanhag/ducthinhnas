@@ -4,7 +4,7 @@ LABEL maintainer="jacob.alberty@foundigital.com"
 ENV PREFIX=/usr/local/firebird
 ENV VOLUME=/firebird
 ENV DEBIAN_FRONTEND noninteractive
-ENV FBURL=https://liquidtelecom.dl.sourceforge.net/project/firebird/firebird-linux-amd64/2.1.7-Release/FirebirdSS-2.1.7.18553-0.amd64.tar.gz
+ENV FBURL=https://jaist.dl.sourceforge.net/project/firebird/firebird/2.1.7-Release/Firebird-2.1.7.18553-0.tar.bz2
 ENV DBPATH=/firebird/data
 
 RUN apt-get update && \
