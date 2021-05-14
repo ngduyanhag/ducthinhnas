@@ -4,7 +4,7 @@ LABEL maintainer="jacob.alberty@foundigital.com"
 ENV PREFIX=/usr/local/firebird
 ENV VOLUME=/firebird
 ENV DEBIAN_FRONTEND noninteractive
-ENV FBURL=https://github.com/FirebirdSQL/firebird/releases/download/R2_5_9/Firebird-2.5.9.27139-0.tar.bz2
+ENV FBURL=https://jaist.dl.sourceforge.net/project/firebird/firebird/2.1.7-Release/Firebird-2.1.7.18553-0.tar.bz2
 ENV DBPATH=/firebird/data
 
 RUN apt-get update && \
